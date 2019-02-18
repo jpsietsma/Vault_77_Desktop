@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="SDNLibraries\SDNSmartBulbLibrary.cs" />
+    <Compile Include="SDNLibraries\SDNSmartDevice.cs" />
+    <Compile Include="SDNLibraries\SDNSmartPlugLibrary.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -95,6 +98,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Downloads\TPLinkSmartDevices-master\TPLinkSmartDevices-master\TPLinkSmartDevices\TPLinkSmartDevices.csproj">
+      <Project>{3384657A-388D-4912-9187-57A27779760F}</Project>
+      <Name>TPLinkSmartDevices</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
