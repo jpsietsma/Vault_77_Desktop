@@ -23,6 +23,10 @@ namespace Vault_77_Desktop.SDNLibraries
             this.HostName = hostName;
         }
 
+        /// <summary>
+        /// Determine if the device is currently on or off
+        /// </summary>
+        /// <returns>True if powered on, false if not.</returns>
         private bool IsPoweredOn()
         {
             if (this.IsTurnedOn)
@@ -33,6 +37,10 @@ namespace Vault_77_Desktop.SDNLibraries
             return false;
         }
 
+        /// <summary>
+        /// Turn on SDN Smart Plug
+        /// </summary>
+        /// <returns>true if successful</returns>
         private bool PowerOnDevice()
         {
             if (this.IsPoweredOn())
@@ -41,9 +49,16 @@ namespace Vault_77_Desktop.SDNLibraries
             }
             else
             {
-                var plug = this;
-                    plug.
+                var plug = new TPLinkSmartPlug(this.HostName)
+                {
+                    OutletPowered = true
+                    
+                };
+                this.IsTurnedOn = true;
+
+                return true;
             }
+
         }
 
     }

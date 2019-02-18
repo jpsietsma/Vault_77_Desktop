@@ -14,12 +14,12 @@ namespace Vault77_ConsoleTest
             var smartPlug = new TPLinkSmartPlug("HS100");
             var smartBulb = new TPLinkSmartBulb("LB130");
 
-            if (!smartBulb.PoweredOn == false)
+            if (!smartBulb.PoweredOn)
             {
                 //smartBulb.PoweredOn = false;
             }
 
-            if (!smartPlug.OutletPowered == false)
+            if (!smartPlug.OutletPowered)
             {
                 //smartPlug.OutletPowered = false;
             }
@@ -33,12 +33,12 @@ namespace Vault77_ConsoleTest
 
             Console.ReadLine();
 
-            if (!smartBulb.PoweredOn == true)
+            if (smartBulb.PoweredOn)
             {
                 //smartBulb.PoweredOn = true;
             }
 
-            if (!smartPlug.OutletPowered == true)
+            if (smartPlug.OutletPowered)
             {
                 //smartPlug.OutletPowered = true;
             }
