@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vault_77_Desktop", "Vault_77_Desktop\Vault_77_Desktop.csproj", "{4A6D8E67-9C87-4144-8164-18B99D4406E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalLibraries", "ExternalLibraries", "{296901FF-8C8A-46EE-953E-BA3019FD6105}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPLinkSmartDevices", "..\..\..\Downloads\TPLinkSmartDevices-master\TPLinkSmartDevices-master\TPLinkSmartDevices\TPLinkSmartDevices.csproj", "{3384657A-388D-4912-9187-57A27779760F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vault77_ConsoleTest", "Vault77_ConsoleTest\Vault77_ConsoleTest.csproj", "{34C88214-414B-4E8F-9E7E-AF42BD5C6E3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A6D8E67-9C87-4144-8164-18B99D4406E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6D8E67-9C87-4144-8164-18B99D4406E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6D8E67-9C87-4144-8164-18B99D4406E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6D8E67-9C87-4144-8164-18B99D4406E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3384657A-388D-4912-9187-57A27779760F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3384657A-388D-4912-9187-57A27779760F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3384657A-388D-4912-9187-57A27779760F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3384657A-388D-4912-9187-57A27779760F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C88214-414B-4E8F-9E7E-AF42BD5C6E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C88214-414B-4E8F-9E7E-AF42BD5C6E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C88214-414B-4E8F-9E7E-AF42BD5C6E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C88214-414B-4E8F-9E7E-AF42BD5C6E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3384657A-388D-4912-9187-57A27779760F} = {296901FF-8C8A-46EE-953E-BA3019FD6105}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0FB3693-0CF9-410A-AE7A-921EAA32B7DC}
+	EndGlobalSection
+EndGlobal
